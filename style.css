@@ -1,0 +1,86 @@
+.container {
+    width: 92%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url(images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+}
+
+header img {
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.cardCentral {
+    display: flex;  
+    justify-content: space-around; 
+    align-items: center;
+    
+}
+
+.imagemCard {
+    margin-top: 75px;
+}
+
+
+h1 {
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    color: bisque;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: bisque;
+    margin-top: 20px;
+}
+
+.button {
+    width: 150px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 20px;
+    box-shadow: 0 3px hsl(257, 40%, 49%);
+    color: hsl(300, 18%, 51%) ;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+     
+}
+
+footer div {
+    margin-right: 150px;
+}
+
+.facebook {
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width:780px) {
+    .container {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    header img {
+        margin: 20px auto;
+    }
+
+    .cardCentral {
+        flex-direction: column;
+    }
+
+    footer {
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 158px;
+    }
+    
+}
